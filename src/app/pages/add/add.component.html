@@ -1,0 +1,12 @@
+<p>add works!</p>
+
+<div class="container">
+<form [formGroup]="formulario" (ngSubmit)="submit()">
+<input type="text" formControlName="title" placeholder="Title">
+<input type="text" formControlName="cover" placeholder="Url imagen">
+<input type="text" formControlName="company" placeholder="Editorial">
+<input type="text" formControlName="author" placeholder="Autor">
+
+<button>Añadir</button>
+</form>
+</div>

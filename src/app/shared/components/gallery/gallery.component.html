@@ -1,0 +1,8 @@
+<div class="container">
+  <div *ngFor="let comic of comics">
+    <h3>{{comic.title}}</h3>
+    <img class="image" src="{{comic.cover}}" alt="">
+    <p>Editorial: {{comic.company}}</p>
+    <p>Autor: {{comic.author}}</p>
+  </div>
+</div>
